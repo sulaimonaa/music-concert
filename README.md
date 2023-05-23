@@ -89,7 +89,7 @@ Run this commands:
 
 You can access this project using the link below:
   
-  <a href="https://sulaimonaa.github.io/music-concert/">Check out my Portfolio</a>
+  <a href="https://sulaimonaa.github.io/music-concert/">Check live demo</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
