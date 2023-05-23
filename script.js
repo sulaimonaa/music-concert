@@ -12,7 +12,7 @@ const bodyWrap = document.querySelector('#body');
 toggler.addEventListener('click', () => {
     menuUl.classList.toggle('show');
     menuUl.classList.add('show-menu');
-    toggler.style.display = 'none';
+    toggler.classList.toggle = 'hide';
     closeBtn.style.display = 'block';
     bodyWrap.style.overflow = 'hidden';
     top_banner.classList.add('blur');
