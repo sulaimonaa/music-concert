@@ -198,6 +198,10 @@
     .no-blur {
         filter: blur(0);
     }
+
+    .menu-icon {
+        display: block;
+    }
 }
 
 @media (min-width: 768px) {
@@ -286,5 +290,9 @@
 
     .blur {
         filter: blur(0px);
+    }
+
+    .menu-icon {
+        display: none;
     }
 }

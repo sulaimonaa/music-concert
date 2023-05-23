@@ -27,6 +27,7 @@ close_btn.addEventListener('click', () => {
     menuUl.classList.toggle('show');
     menuUl.classList.remove('show-menu');
     closeBtn.style.display = 'none';
+    toggler.classList.add('menu-icon');
     bodyWrap.style.overflow = 'scroll';
     top_banner.classList.remove('blur');
     usp.classList.remove('blur');
