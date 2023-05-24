@@ -241,6 +241,11 @@
     height: auto;
   }
 
+  .mail-event {
+    font-weight: bold; 
+    text-decoration: underline
+  }
+
   .past-event-img {
     width: 385px;
     height: 175px;
