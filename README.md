@@ -127,7 +127,7 @@ If you like this project, please give your rating or suggest to me how to make i
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse team, coding partners and the code reviewers
+I would like to thank Cindy Shin (https://www.behance.net/adagio07), Microverse team, and the code reviewers
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -81,12 +81,17 @@
     gap: 15px;
   }
 
+  .about-headline {
+    height: inherit;
+    gap: 25px;
+  }
+
   .event-headline-main {
-    mix-blend-mode: color-burn;
-    font-size: 4em;
-    line-height: 60px;
+    /* mix-blend-mode: color-burn; */
+    font-size: 3em;
+    line-height: 52px;
     font-weight: 900;
-    color: #272a31;
+    color: #ec5242;
   }
 
   .event-summary {
@@ -111,17 +116,26 @@
     width: 50px;
   }
 
+  .about-title-line {
+    border: 2px solid #ec524261;
+    width: 50px;
+  }
+
   .usp-list {
     width: 100%;
-    height: 200px;
+    height: 150px;
     background: #d3d3d34f;
     margin-bottom: 10px;
-    gap: 5px;
+    gap: 10px;
     transition: all 1s;
   }
 
   .usp-list:hover {
     border: 3px solid #fff;
+  }
+
+  .usp-list i.fa {
+    font-size: 2em;
   }
 
   .usp-list h5 {
@@ -169,11 +183,23 @@
     text-align: center;
   }
 
-  #footer {
-    padding: 2em 0;
-    height: auto;
+  .partner-list {
+    display: block;
   }
 
+  .partner-list a img {
+    width: 33%;
+  }
+
+  #footer {
+    height: 200px;
+  }
+
+  #footer .container {
+    height: inherit;
+    gap: 25px;
+  }
+  
   /* toggle effects on menu */
   .show-menu {
     background: #d3d3d3d4;
@@ -201,6 +227,34 @@
 
   .menu-icon {
     display: block;
+  }
+
+  /* about */
+
+  .about-logo {
+    gap: 15px;
+    width: 100%;
+    height: auto;
+  }
+  .past-event-img {
+    width: 300px;
+    height: 150px;
+  }
+
+  .pe-1 {
+    background-blend-mode: multiply;
+    background: #ec5242 url(images/e1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .pe-2 {
+    background-blend-mode: multiply;
+    background: #ec5242 url(images/e2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 }
 
@@ -249,6 +303,7 @@
 
   .usp-list {
     width: 25%;
+    height: 200px;
     margin-bottom: 0;
   }
 
@@ -258,7 +313,7 @@
   }
 
   #partner {
-    height: 150px;
+    height: 190px;
     gap: 15px;
   }
 
@@ -266,13 +321,15 @@
     height: inherit;
   }
 
-  #footer {
-    height: 150px;
+  .partner-list {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10%;
+    flex: 1;
+    gap: 15px;
   }
 
-  #footer .container {
-    height: inherit;
-    gap: 25px;
+  .partner-list a img {
+    width: 100%;
   }
 
   /* toggle effects on menu */
@@ -294,5 +351,30 @@
 
   .menu-icon {
     display: none;
+  }
+
+  /* about */
+  #about-logo {
+    border-bottom: 1px solid #d3d3d3;
+    border-top: 1px solid #d3d3d3;
+  }
+
+  .about-logo {
+    gap: 15px;
+    width: 50%;
+    height: 725px;
+  }
+
+  .logo-wrap {
+    width: 80%;
+  }
+
+  .past-event {
+    height: 500px;
+    gap: 15px;
+  }
+
+  .past-event-wrap {
+    gap: 25px;
   }
 }
