@@ -73,16 +73,15 @@ featuredSpeakersList.forEach((speakers) => {
   const listItem = document.createElement('div');
   listItem.classList.add('featured-wrap');
   listItem.innerHTML = `<div class='featured-speakers-2 d-block d-md-flex'>
-      <div class="featured-speakers-1 d-block d-md-flex justify-content-center mb-3 mb-md-0">
+      <div class='featured-speakers-1 d-flex justify-content-center mb-3 mb-md-0'>
         <img src='${speakers.artistImg}' alt='speaker one' class='mx-auto mb-4 mb-md-0' />
-        <div class="d-flex flex-column justify-content-center align-items-md-start align-items-center">
-          <h5 class='primary'>${speakers.artistName}</h5>
-          <h6 class='secondary-color'>${speakers.artistProfile}</h6>
+        <div class="d-flex flex-column justify-content-center align-items-start">
+          <h5 class='primary m-0'>${speakers.artistName}</h5>
+          <div class='fs-line my-3'></div>
+          <h6 class='secondary-color font-italic'>${speakers.artistProfile}</h6>
           <p>${speakers.artistBio}</p>
         </div>
       </div>
     </div>`;
   list.appendChild(listItem);
 });
-
-/* <div class='container d-flex flex-column justify-content-center align-items-center'> */
