@@ -40,35 +40,35 @@ const featuredSpeakersList = [{
   artistImg: './images/ayodeji.png',
   artistName: 'Sulaimon Ayodeji',
   artistProfile: '9 years performing gospel art',
-  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound'
-},{
+  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound',
+}, {
   artistImg: './images/donald.png',
   artistName: 'Sulaimon Donald',
   artistProfile: '9 years performing gospel art',
-  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound'
-},{
+  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound',
+}, {
   artistImg: './images/busayo.png',
   artistName: 'Sulaimon Temitope',
   artistProfile: '9 years performing gospel art',
-  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound'
-},{
+  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound',
+}, {
   artistImg: './images/desmond.png',
   artistName: 'Desire Desmond',
   artistProfile: '9 years performing gospel art',
-  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound'
-},{
+  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound',
+}, {
   artistImg: './images/donald2.png',
   artistName: 'Sulaimon Donald',
   artistProfile: '9 years performing gospel art',
-  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound'
-},{
+  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound',
+}, {
   artistImg: './images/desmond2.png',
   artistName: 'Dieko Desmond',
   artistProfile: '9 years performing gospel art',
-  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound'
-}]
+  artistBio: 'A seasoned gospel singer, started ministeration in 2014 with vast experience in gospel sound',
+}];
 
-featuredSpeakersList.forEach((speakers, index) => {
+featuredSpeakersList.forEach((speakers) => {
   const list = document.getElementById('featuredSpeakers');
   const listItem = document.createElement('div');
   listItem.classList.add('featured-wrap');
@@ -83,6 +83,6 @@ featuredSpeakersList.forEach((speakers, index) => {
       </div>
     </div>`;
   list.appendChild(listItem);
-})
+});
 
 /* <div class='container d-flex flex-column justify-content-center align-items-center'> */
